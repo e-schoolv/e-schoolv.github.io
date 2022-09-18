@@ -8,7 +8,6 @@ $(document).ready(function() {
 			url: "thanks.html", //Change
 			data: th.serialize()
 		});
-		return false;
 	});
 
 });
