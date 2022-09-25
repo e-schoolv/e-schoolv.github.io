@@ -724,6 +724,9 @@ span{
 }
 
 @media screen and (max-width:412px){
+      html {
+    overflow-x: hidden;
+  }
   .nav > h1{
     font-size: 18px;
   }
