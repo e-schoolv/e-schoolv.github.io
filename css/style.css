@@ -179,6 +179,10 @@ summary{
   color: blueviolet;
 }
 
+summary:hover{
+    cursor: pointer;
+}
+
 h3{
   display: flex;
   color: blueviolet;
