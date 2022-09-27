@@ -6,6 +6,10 @@ body{
     height: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #first_title{
     color: blueviolet;
     transition: 2s;
@@ -168,6 +172,11 @@ position: relative;
 left: 520px;
 top: 100px;
 display: block;
+}
+
+summary{
+  font-size: 20px;
+  color: blueviolet;
 }
 
 h3{
@@ -724,15 +733,14 @@ span{
 }
 
 @media screen and (max-width:412px){
-      html {
+  html {
     overflow-x: hidden;
   }
   .nav > h1{
     font-size: 18px;
   }
   #courses_info{
-    left: 1px;
-    display: flex;
+    display: none;
   }
 
   .dropdown{
