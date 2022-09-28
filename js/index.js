@@ -34,7 +34,7 @@ function S2crollToHelp() {
     }
     else{
       for (let i = 1;i <= qanak;i++) {
-       let n = +prompt("Գրեք ձեր " + i +  " գնահատականը:" , "");
+       let n = +prompt("Գրեք ձեր " + i +  "-րդ գնահատականը:" , "");
         sum += n;
         qarord = sum / qanak;
       }
