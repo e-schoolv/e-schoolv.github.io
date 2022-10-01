@@ -348,7 +348,7 @@
 		<input type="hidden" name="_captcha" value="false">
 		<input type="hidden" name="_autoresponse" value="Շնորհակալություն հարցում ուղարկելու համար, ձեր հարցման պատասխանը դուք կստանաք 48 ժամվա ընթացքում">
 		<input type="hidden" name="_template" value="table">
-            <select name="subject" id="subj">
+            <select name="subject" id="subj" required>
             <option disabled selected>Ընտրեք Հարցը կամ Խմբակը</option>
                 <optgroup label="Հարցեր">
                 <option name="Հարց դպրոցից" value="Հարց դպրոցից">Հարց դպրոցից</option>
@@ -360,8 +360,8 @@
                 <option name="Ծրագրավորում" value="Ծրագրավորում">Ծրագրավորում</option>
                 </optgroup>
             </select>
-            <input id="email" type="email" name="email" placeholder="Գրեք ձեր Էլ․ Փոստը">
-            <textarea id="message" name="message" placeholder="Գրեք հարցը կամ խմբակի մասին" maxlength="150"  data-rows="1" tabindex="0" aria-label="Ձեր պատասխանը" ></textarea>
+            <input id="email" type="email" name="email" placeholder="Գրեք ձեր Էլ․ Փոստը" required>
+            <textarea id="message" name="message" placeholder="Գրեք հարցը կամ խմբակի մասին" maxlength="150"  data-rows="1" tabindex="0" aria-label="Ձեր պատասխանը" required ></textarea>
             <input id="send" type="submit" value="Ուղարկել">
         </form>
         <hr>
